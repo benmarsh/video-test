@@ -1,17 +1,15 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
+    <ion-title>Tab 1</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <video src="assets/flower.mp4" loop muted playsinline autoplay poster="assets/flower.jpg"></video>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <article>
+    <h1>src Method</h1>
+    <p>Video element with <code>src</code> attribute.</p>
+    <p>On a real iOS device, the <code>capacitor://</code> protocol calls don't appear to return data.</p>
+  </article>
 </ion-content>

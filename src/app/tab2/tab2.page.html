@@ -1,17 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title>Tab 2</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <video #videoElement loop muted playsinline autoplay poster="assets/flower.jpg"></video>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <article>
+    <h1>readAsDataUrl Method</h1>
+    <p>Reads the contents of the video file as a blob, converts to a dataUrl which is then used as the video src.</p>
+  </article>
 </ion-content>

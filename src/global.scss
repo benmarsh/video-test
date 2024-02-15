@@ -24,3 +24,23 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+ion-content {
+  video {
+    background: #000;
+    height: 50%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  code {
+    background: #eee;
+    border-radius: .25rem;
+    padding: 0 .25rem;
+  }
+}
